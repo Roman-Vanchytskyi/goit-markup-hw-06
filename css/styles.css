@@ -529,6 +529,8 @@ ul {
 
 .address {
 	font-style: normal;
+	margin-top: 20px;
+	width: 231px;
 }
 
 .address-street {
@@ -537,6 +539,7 @@ ul {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--minor-color);
+	cursor: auto;
 }
 
 .address-item {
@@ -556,10 +559,6 @@ ul {
 .mail-margin {
 	margin-bottom: 9px;
 	margin-top: 9px;
-}
-
-.adr-margin {
-	margin-top: 20px;
 }
 
 .footer-title {
@@ -623,7 +622,7 @@ ul {
 	width: 570px;
 	height: 86px;
 	margin-top: 12px;
-	margin-left: 110px;
+	margin-left: 93px;
 	margin-right: auto;
 }
 
@@ -637,6 +636,7 @@ ul {
 	margin-top: 20px;
 	margin-right: 12px;
 	padding: 15px 16px;
+	color: var(--minor-color);
 	background-color: transparent;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -716,6 +716,16 @@ ul {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+	color: var(--accent-color);
+}
+
+.modal-close-vector {
+	fill: currentColor;
 }
 
 .no-scrool {
@@ -771,6 +781,7 @@ ul {
 	height: 120px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
+	margin-top: 4px;
 	padding: 12px 16px;
 	background-color: transparent;
 	outline: transparent;
@@ -789,6 +800,7 @@ ul {
 
 .input-wrap {
 	position: relative;
+	margin-top: 4px;
 	color: var(--primary-color);
 }
 

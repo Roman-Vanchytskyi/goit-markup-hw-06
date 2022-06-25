@@ -694,7 +694,7 @@ ul {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 528px;
-	height: 581px;
+	height: auto;
 	padding: 40px;
 	background: var(--minor-color);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -847,7 +847,6 @@ ul {
 .modal-submit-btn {
 	display: block;
 	margin-top: 30px;
-	margin-bottom: 40px;
 	margin-left: auto;
 	margin-right: auto;
 }

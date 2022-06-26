@@ -832,6 +832,16 @@ ul {
 	justify-content: center;
 }
 
+.icon-uncheked {
+	position: relative;
+	top: 2px;
+}
+
+.icon-cheked {
+	position: relative;
+	top: 2px;
+}
+
 .icon-cheked {
 	display: none;
 }
